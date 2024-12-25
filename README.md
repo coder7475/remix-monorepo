@@ -22,6 +22,22 @@ The structure of a monorepo might vary depending on what you plan to use it for.
   - `packages` or `libs` folder containing libraries specific to one or multiple applications
   - Option to publish some libraries to public registries
 
+### Run with pnpm
+
+### my-remix-app
+
+To run `my-remix-app` maker sure you installed packages run from root directory:
+
+```bash
+pnpm --filter my-remix-app install
+```
+
+Run Remix app in dev mode using pnpm:
+
+```
+pnpm --filter my-remix-app dev
+```
+
 ### References
 
 1. [Official Nx Blog](https://nx.dev/blog/setup-a-monorepo-with-pnpm-workspaces-and-speed-it-up-with-nx)
