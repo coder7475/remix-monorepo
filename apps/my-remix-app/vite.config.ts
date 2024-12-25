@@ -9,6 +9,9 @@ declare module "@remix-run/node" {
 }
 
 export default defineConfig({
+  ssr: {
+    external: ["shared-ui"], // Add the shared-ui module to externalize it
+  },
   plugins: [
     remix({
       future: {
