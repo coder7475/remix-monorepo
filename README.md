@@ -38,6 +38,15 @@ Run Remix app in dev mode using pnpm:
 pnpm --filter my-remix-app dev
 ```
 
+### Shared UI
+
+Install react and typescript for shared ui from the root of the workspace:
+
+```bash
+pnpm add --filter shared-ui react
+pnpm add --filter shared-ui typescript -D
+```
+
 ### References
 
 1. [Official Nx Blog](https://nx.dev/blog/setup-a-monorepo-with-pnpm-workspaces-and-speed-it-up-with-nx)
