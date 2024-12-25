@@ -47,6 +47,20 @@ pnpm add --filter shared-ui react
 pnpm add --filter shared-ui typescript -D
 ```
 
+Build:
+
+```bash
+pnpm --filter shared-ui build
+```
+
+### Consuming shared ui package from remix app
+
+To add shared ui as dependencies of my-remix app run:
+
+```bash
+pnpm add shared-ui --filter my-remix-app --workspace
+```
+
 ### References
 
 1. [Official Nx Blog](https://nx.dev/blog/setup-a-monorepo-with-pnpm-workspaces-and-speed-it-up-with-nx)
