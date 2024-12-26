@@ -61,6 +61,26 @@ To add shared ui as dependencies of my-remix app run:
 pnpm add shared-ui --filter my-remix-app --workspace
 ```
 
+### Speeding up with Nx
+
+```bash
+pnpm add nx -D -w
+```
+
+##### Format to run tasks with Nx
+
+```bash
+npx nx <target> <project>
+```
+
+Ex:
+
+Build `shared-ui` with nx:
+
+```bash
+npx nx build shared-ui
+```
+
 ### References
 
 1. [Official Nx Blog](https://nx.dev/blog/setup-a-monorepo-with-pnpm-workspaces-and-speed-it-up-with-nx)

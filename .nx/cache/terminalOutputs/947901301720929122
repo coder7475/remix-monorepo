@@ -1,0 +1,4 @@
+
+> shared-ui@ build /home/fahad/monorepo/remix-monorepo/packages/shared-ui
+> rm -rf dist && tsc
+

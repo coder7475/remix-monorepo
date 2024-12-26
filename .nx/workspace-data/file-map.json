@@ -1,0 +1,146 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.3.0",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "my-remix-app": [
+        {
+          "file": "apps/my-remix-app/.eslintrc.cjs",
+          "hash": "7641779309036131719"
+        },
+        {
+          "file": "apps/my-remix-app/.gitignore",
+          "hash": "2267986781002139465"
+        },
+        {
+          "file": "apps/my-remix-app/README.md",
+          "hash": "2643931112379010498"
+        },
+        {
+          "file": "apps/my-remix-app/app/entry.client.tsx",
+          "hash": "5186934067478039483"
+        },
+        {
+          "file": "apps/my-remix-app/app/entry.server.tsx",
+          "hash": "3025734087346391440"
+        },
+        {
+          "file": "apps/my-remix-app/app/root.tsx",
+          "hash": "17137202507777218203"
+        },
+        {
+          "file": "apps/my-remix-app/app/routes/_index.tsx",
+          "hash": "7967383244608671014"
+        },
+        {
+          "file": "apps/my-remix-app/app/tailwind.css",
+          "hash": "1159213984296909414"
+        },
+        {
+          "file": "apps/my-remix-app/package.json",
+          "hash": "3482451656339810485",
+          "deps": [
+            "npm:@remix-run/dev",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:autoprefixer",
+            "npm:eslint",
+            "npm:eslint-import-resolver-typescript",
+            "npm:eslint-plugin-import",
+            "npm:eslint-plugin-jsx-a11y",
+            "npm:eslint-plugin-react",
+            "npm:eslint-plugin-react-hooks",
+            "npm:postcss",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "npm:vite",
+            "npm:vite-tsconfig-paths",
+            "npm:@remix-run/node",
+            "npm:@remix-run/react",
+            "npm:@remix-run/serve",
+            "npm:isbot",
+            "npm:react",
+            "npm:react-dom",
+            "shared-ui"
+          ]
+        },
+        {
+          "file": "apps/my-remix-app/postcss.config.js",
+          "hash": "1886002347757770194"
+        },
+        {
+          "file": "apps/my-remix-app/public/favicon.ico",
+          "hash": "3730367829618743876"
+        },
+        {
+          "file": "apps/my-remix-app/public/logo-dark.png",
+          "hash": "2151824327557069041"
+        },
+        {
+          "file": "apps/my-remix-app/public/logo-light.png",
+          "hash": "17900532124686567140"
+        },
+        {
+          "file": "apps/my-remix-app/tailwind.config.ts",
+          "hash": "1603803244841878876"
+        },
+        {
+          "file": "apps/my-remix-app/tsconfig.json",
+          "hash": "11447546127494410491"
+        },
+        {
+          "file": "apps/my-remix-app/vite.config.ts",
+          "hash": "9727787815889281995"
+        }
+      ],
+      "shared-ui": [
+        {
+          "file": "packages/shared-ui/Button.tsx",
+          "hash": "8670912721632178983"
+        },
+        {
+          "file": "packages/shared-ui/index.tsx",
+          "hash": "859357975042866801"
+        },
+        {
+          "file": "packages/shared-ui/package.json",
+          "hash": "11505932253344592710",
+          "deps": [
+            "npm:typescript",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/shared-ui/tsconfig.json",
+          "hash": "11752303486256164328"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "11612638887042922903"
+      },
+      {
+        "file": "README.md",
+        "hash": "13481022349014242671"
+      },
+      {
+        "file": "package.json",
+        "hash": "8354672650343233196"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "13769566265470702294"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "10742182805711266140"
+      }
+    ]
+  }
+}
