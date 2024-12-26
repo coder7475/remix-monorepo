@@ -81,6 +81,18 @@ Build `shared-ui` with nx:
 npx nx build shared-ui
 ```
 
+Run my remix app in dev mode:
+
+```bash
+npx nx dev my-remix-app
+```
+
+use pnpm to run my-remix-app in dev mode:
+
+```bash
+pnpm my-remix-app:dev
+```
+
 ### References
 
 1. [Official Nx Blog](https://nx.dev/blog/setup-a-monorepo-with-pnpm-workspaces-and-speed-it-up-with-nx)

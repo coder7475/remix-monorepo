@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "my-remix-app:dev": "npx nx dev my-remix-app"
   },
   "keywords": [],
   "author": "",

@@ -5,6 +5,28 @@
   "nxJsonPlugins": [],
   "fileMap": {
     "projectFileMap": {
+      "shared-ui": [
+        {
+          "file": "packages/shared-ui/Button.tsx",
+          "hash": "8670912721632178983"
+        },
+        {
+          "file": "packages/shared-ui/index.tsx",
+          "hash": "859357975042866801"
+        },
+        {
+          "file": "packages/shared-ui/package.json",
+          "hash": "11505932253344592710",
+          "deps": [
+            "npm:typescript",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "packages/shared-ui/tsconfig.json",
+          "hash": "11752303486256164328"
+        }
+      ],
       "my-remix-app": [
         {
           "file": "apps/my-remix-app/.eslintrc.cjs",
@@ -96,28 +118,6 @@
           "file": "apps/my-remix-app/vite.config.ts",
           "hash": "9727787815889281995"
         }
-      ],
-      "shared-ui": [
-        {
-          "file": "packages/shared-ui/Button.tsx",
-          "hash": "8670912721632178983"
-        },
-        {
-          "file": "packages/shared-ui/index.tsx",
-          "hash": "859357975042866801"
-        },
-        {
-          "file": "packages/shared-ui/package.json",
-          "hash": "11505932253344592710",
-          "deps": [
-            "npm:typescript",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "packages/shared-ui/tsconfig.json",
-          "hash": "11752303486256164328"
-        }
       ]
     },
     "nonProjectFiles": [
@@ -127,11 +127,11 @@
       },
       {
         "file": "README.md",
-        "hash": "13481022349014242671"
+        "hash": "12990109621340672277"
       },
       {
         "file": "package.json",
-        "hash": "8354672650343233196"
+        "hash": "15605561746079216327"
       },
       {
         "file": "pnpm-lock.yaml",
